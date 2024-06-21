@@ -1,0 +1,38 @@
+.about-section{
+    margin: 20px 50px;
+}
+.line{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.line hr{
+    width: 48%;
+    border: 3px solid #F27121;
+}
+.line h1{
+    margin: 0px 20px;
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+text-align: center;
+color: #F27121;
+
+}
+.about{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+color: #000000;
+
+}
+.about span{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px;
+text-align: center;
+}

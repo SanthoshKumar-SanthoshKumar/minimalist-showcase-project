@@ -1,0 +1,66 @@
+.products-section {
+    margin: 20px 50px;
+  }
+  
+  .product-responsive-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .product-container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+  .product-container img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .product-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-details-container h1 {
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .product-details-container button {
+    background: #fe0000;
+    width: 120px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 8px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+  }
+  
+  .bottom-line {
+    border: 3px solid #f27121;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .product-responsive-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .product-container {
+      margin: 30px;
+      
+    }
+  }
+  
+  /* Additional CSS for the modal */ 
+  

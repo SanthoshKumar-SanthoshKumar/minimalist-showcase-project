@@ -1,0 +1,41 @@
+.footer-section{
+    background: #25A769;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+    position: fixed bottom;
+}
+
+.footer-section h1{
+    color: #ECE14C;
+    font-family: Neue Metana;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.32px;
+text-align: left;
+
+
+}
+
+.footer-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.footer-section ul li{
+    background-color: #000;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    font-size: 20px;
+}

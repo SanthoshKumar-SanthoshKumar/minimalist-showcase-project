@@ -1,0 +1,14 @@
+nav{
+    background: transparent;
+    width: 100%;
+    height: 72px;
+    padding: 8px 30px;
+    background: #1C1C1C33;
+    border-bottom: 1px solid #FF777766;
+    position: fixed;
+    font-family: "Abril Fatface", serif;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: 0.5cap;
+   color: #fff;
+}
